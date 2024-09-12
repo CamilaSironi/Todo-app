@@ -20,6 +20,7 @@ createRoot(document.getElementById('root')!).render(
 	      ? "https://todo-app-two-rosy.vercel.app/"
 	      : "http://localhost:5173"
       }
+      isDangerouslyUseLocalStorage={true}
 	  >
     <TodosContextProvider>
     <App />
